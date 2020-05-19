@@ -45,7 +45,7 @@ const gameOver = () => {
       $('<div>')
               .addClass('gameover')
               .appendTo('.container')
-              .text('Game is over');
+              .text('Game over!');
 }
 
 $(() => {
