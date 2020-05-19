@@ -1,5 +1,5 @@
-vainakh.github.io
-[GitHub](http://github.com)
+[vainakh.github.io]
+
 
 ## Trivia Game 
 
