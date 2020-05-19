@@ -34,14 +34,16 @@ const startGame = () => {
               .addClass('answer')
               .text(triviaData[cardIndex].answer)
               .appendTo(`.title-${[cardIndex]}`);
+
     $question.on('click', (event) => {
-      $(event.currentTarget).next()
-                            .toggleClass("active");   
+                  $(event.currentTarget)
+                  .next()
+                  .toggleClass("active");   
     });
 }
 
 const gameOver = () => {
-  // Do gameover view
+
       $('<div>')
               .addClass('gameover')
               .appendTo('.container')
