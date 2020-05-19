@@ -216,8 +216,7 @@ h3 {
   color: transparent;
   position: absolute;
   top: 400px;
-  left: 620px;
-  font-size: 100px;
-  transition-duration: 1s;
-  transform: scale(1.4);
+  left: 380px;
+  font-size: 200px;
+  
 }
